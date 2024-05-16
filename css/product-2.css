@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100&display=swap');
+
+body{
+    background-color: #f2f2f2;
+}
+
+nav {
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container-1 {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.button{
+    font-weight: 500;
+    font-family: "poppins" , "sans-serif";
+    border: none;
+    border-radius: 5px;
+    padding: 10px 50px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.img{
+    height: 380px;
+}
+.img1{
+    height: 400px;
+    width: 503px;
+}
+.timer{
+    width: 28%;
+}
+.product-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 7px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #ffff;
+}
+.quantity-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.btn-quantity{
+    height: 25px;
+}
+.quantity-text{
+    font-size: 25px;
+    margin: auto 10px;
+}
+
+
+@media screen and (min-width: 869px) and (max-width: 925px) {
+    .card1{
+        height: 390px;
+    }
+}
+
+
+@media screen and (max-width: 399px) {
+    .container-1{
+        width: 90%;
+    }
+    .timer{
+        width: 40%;
+        font-size: 25px;
+    }
+    .card-text{
+        font-size: 17px;
+    }
+    .img-fluid{
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 768px) {
+    .container-1{
+        width: 90%;
+    }
+    .timer{
+        width: 34%;
+    }
+    .card-text{
+        font-size: 19px;
+    }
+    .img-fluid{
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .container-1{
+        width: 90%;
+    }
+    .timer{
+        width: 30%;
+    }
+    .card-text{
+        font-size: 20px;
+    }
+    .img-fluid{
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    .timer{
+        width: 30%;
+    }
+    .img-fluid{
+        height: 100%;
+    }
+}
+
