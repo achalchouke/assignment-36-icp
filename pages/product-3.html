@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Fits</title>
+</head>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+<link rel="stylesheet" href="./../css/product-3.css"/>
+
+<script src="../js/product-3.js"></script>
+
+<body>
+
+
+        <!-- Navigation Bar -->
+
+        <nav class="navbar navbar-expand-lg bg-dark rounded  mx-4 mt-3 mx-auto">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="logo" src="./../images/logo.png" alt="" height="50px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div><img src="./" height="100" alt=""></div>
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link text-light active fs-4" aria-current="page" href="./../index.html">Home</a>
+                </li>
+      
+                <li class="nav-item">
+                  <a class="nav-link text-light active fs-4" href="./../pages/about.html">About</a>
+                </li><br/>
+                <li class="nav-item">
+                  <a class="nav-link text-light active fs-4" href="./../pages/contact.html">Contact </a>
+                </li>
+      
+               
+      
+                <li class="nav-item dropdown">
+                  <a class="nav-link text-light  active fs-4 dropdown-toggle" href="#" data-bs-toggle="dropdown">Shop</a>
+                  <ul class="dropdown-menu mt-5 bg-transperent mt-4">
+                    <li><a class="dropdown-item " href="./../pages/product-1.html">Ledies</a></li>
+                    <li><a class="dropdown-item" href="./../pages/product-2.html">Mens</a></li>
+                    <li><a class="dropdown-item" href="./../pages/product-3.html">Kids</a></li>
+      
+                  </ul>
+                </li>
+      
+              </ul>
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <button class="btn btn-light fs-5">
+                  <li class="nav-item">
+                    <a class="nav-link active fs-5" href="./../pages/login.html">Login</a>
+                  </li>
+                </button>
+                &nbsp;
+                &nbsp;
+      
+            </div>
+            </ul>
+          </div>
+          </div>
+        </nav> 
+
+
+
+    
+    <h1 class="text-center mt-4 heading text-dark">Kids Wear</h1>
+
+
+    <div class="container-1 card mb-3 mx-auto mt-5" style="max-width: 1200px;">
+        <div class="row g-0">
+          <div class="col-md-5">
+            <img src="./../images/kids/sharara-1.png" class="img-fluid rounded-start" alt="Launching-product" id="main-product-img-0">
+          </div>
+          <div class="col-md-7">
+            <div class="card-body">
+              <h5 class="card-title h2 mt-3 mb-4 text-dark">Sharara</h5>
+              <p class="card-text h5">We are going to launch variety of best quality <b>cloths</b>. </p></div>
+
+              <div class="img-container">
+                <img src="./../images/kids/sharara-1.png" class="product-img" onclick="changeImage(1)"/> 
+                <img src="./../images/kids/sharara-2.png" class="product-img" onclick="changeImage(2)"/> 
+                <img src="./../images/kids/sharara-3.png" class="product-img" onclick="changeImage(3)"/> 
+                <img src="./../images/kids/sharara-4.png" class="product-img" onclick="changeImage(4)"/> 
+                <img src="./../images/kids/sharara-5.png" class="product-img" onclick="changeImage(5)"/> 
+             </div>
+            
+             <div class="text-center">
+                <span class="text-decoration-line-through bold">Rs5990.00/- </span> <span class="bold"> Rs5460.00/-</span>
+                <p class="fw-semibold" id="show-quantity">1*5460</p>
+                 <p class="fw-semibold" id="show-total">Total : 5460</p>
+             </div>
+ 
+             <div class="quantity-btn-container">
+                 <img src="./../icons/dec.png" class="btn-quantity" onclick="dec()"/>
+                 <span class="quantity-text" id="quantity-text" >1</span>
+                <img src="./../icons/inc.png" class="btn-quantity" onclick="inc()"/>
+            </div>
+            
+            <div>
+            <button class="button  d-block mx-auto m-5 fs-4 bg-dark" onclick="msg()">Order Now</button>
+            </div>
+           </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="container-1 card mb-3 mx-auto mt-5" style="max-width: 1200px;">
+        <div class="row g-0">
+          <div class="col-md-5">
+            <img src="./../images/kids/girl-1.png" class="img-fluid rounded-start" alt="Launching-product" id="main-product-img-1">
+          </div>
+          <div class="col-md-7">
+            <div class="card-body">
+              <h5 class="card-title h2 mt-3 mb-4 text-dark">Frock</h5>
+              <p class="card-text h5">We are going to launch variety of best quality <b>cloths</b>. </p></div>
+
+              <div class="img-container">
+                <img src="./../images/kids/girl-1.png" class="product-img" onclick="changeImage1(6)"/> 
+                <img src="./../images/kids/girl-2.png" class="product-img" onclick="changeImage1(7)"/> 
+                <img src="./../images/kids/girl-3.png" class="product-img" onclick="changeImage1(8)"/> 
+                <img src="./../images/kids/girl-4.png" class="product-img" onclick="changeImage1(9)"/> 
+                <img src="./../images/kids/girl-5.png" class="product-img" onclick="changeImage1(10)"/> 
+             </div>
+            
+             <div class="text-center">
+                <span class="text-decoration-line-through bold">Rs7990.00/- </span> <span class="bold"> Rs6460.00/-</span>
+                <p class="fw-semibold" id="show-quantity-2">1*6460</p>
+                 <p class="fw-semibold" id="show-total-2">Total : 6460</p>
+             </div>
+ 
+             <div class="quantity-btn-container">
+                 <img src="./../icons/dec.png" class="btn-quantity" onclick="dec2()"/>
+                 <span class="quantity-text" id="quantity-text-2" >1</span>
+                <img src="./../icons/inc.png" class="btn-quantity" onclick="inc2()"/>
+            </div>
+            
+            <div>
+            <button class="button  d-block mx-auto m-5 fs-4 bg-dark" onclick="msg()">Order Now</button>
+            </div>
+           </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+
+
+      <div class="container-1 card mb-3 mx-auto mt-5" style="max-width: 1200px;">
+        <div class="row g-0">
+          <div class="col-md-5">
+            <img src="./../images/kids/b-sherwani-1.png" class="img-fluid rounded-start" alt="Launching-product" id="main-product-img-2">
+          </div>
+          <div class="col-md-7">
+            <div class="card-body">
+              <h5 class="card-title h2 mt-3 mb-4 text-dark">Sherwani</h5>
+              <p class="card-text h5">We are going to launch variety of best quality <b>cloths</b>. </p></div>
+
+              <div class="img-container">
+                <img src="./../images/kids/b-sherwani-1.png" class="product-img" onclick="changeImage2(11)"/> 
+                <img src="./../images/kids/b-sherwani-2.png" class="product-img" onclick="changeImage2(12)"/> 
+                <img src="./../images/kids/b-sherwani-3.png" class="product-img" onclick="changeImage2(13)"/> 
+                <img src="./../images/kids/b-sherwani-4.png" class="product-img" onclick="changeImage2(14)"/> 
+                <img src="./../images/kids/b-sherwani-5.png" class="product-img" onclick="changeImage2(15)"/> 
+             </div>
+            
+             <div class="text-center">
+                <span class="text-decoration-line-through bold">Rs6990.00/- </span> <span class="bold"> Rs7460.00/-</span>
+                <p class="fw-semibold" id="show-quantity-1">1*7460</p>
+                 <p class="fw-semibold" id="show-total-1">Total : 7460</p>
+             </div>
+ 
+             <div class="quantity-btn-container">
+                 <img src="./../icons/dec.png" class="btn-quantity" onclick="dec1()"/>
+                 <span class="quantity-text" id="quantity-text-1" >1</span>
+                <img src="./../icons/inc.png" class="btn-quantity" onclick="inc1()"/>
+            </div>
+            
+            <div>
+            <button class="button  d-block mx-auto m-5 fs-4 bg-dark" onclick="msg()">Order Now</button>
+            </div>
+           </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="container-1 card mb-3 mx-auto mt-5" style="max-width: 1200px;">
+        <div class="row g-0">
+          <div class="col-md-5">
+            <img src="./../images/kids/b-blazer-1.png" class="img-fluid rounded-start" alt="Launching-product" id="main-product-img-3">
+          </div>
+          <div class="col-md-7">
+            <div class="card-body">
+              <h5 class="card-title h2 mt-3 mb-4 text-dark">Coat-pant</h5>
+              <p class="card-text h5">We are going to launch variety of best quality <b>cloths</b>. </p></div>
+
+              <div class="img-container">
+                <img src="./../images/kids/b-blazer-1.png" class="product-img" onclick="changeImage3(16)"/> 
+                <img src="./../images/kids/b-blazer-2.png" class="product-img" onclick="changeImage3(17)"/> 
+                <img src="./../images/kids/b-blazer-3.png" class="product-img" onclick="changeImage3(18)"/> 
+                <img src="./../images/kids/b-blazer-4.png" class="product-img" onclick="changeImage3(19)"/> 
+                <img src="./../images/kids/b-blazer-5.png" class="product-img" onclick="changeImage3(20)"/> 
+             </div>
+            
+             <div class="text-center">
+                <span class="text-decoration-line-through bold">Rs7990.00/- </span> <span class="bold"> Rs8460.00/-</span>
+                <p class="fw-semibold" id="show-quantity-3">1*8460</p>
+                 <p class="fw-semibold" id="show-total-3">Total : 8460</p>
+             </div>
+ 
+             <div class="quantity-btn-container">
+                 <img src="./../icons/dec.png" class="btn-quantity" onclick="dec3()"/>
+                 <span class="quantity-text" id="quantity-text-3" >1</span>
+                <img src="./../icons/inc.png" class="btn-quantity" onclick="inc3()"/>
+            </div>
+            
+            <div>
+            <button class="button  d-block mx-auto m-5 fs-4 bg-dark" onclick="msg()">Order Now</button>
+            </div>
+           </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+      <footer class="bg-dark text-light pt-5 pb-4 footer-shadow mt-4"
+      style="box-shadow: #ffff 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;">
+      <div class="container text-center text-md-left">
+          <div class="row text-center text-md-left">
+              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <h5 class="text-uppercase text-light mb-4 fw-bold" style="color: ">Smart<span>&nbsp;Fits</span></h5>
+                  <p class="fw-semibold">
+                     <a href="#" class="text-light" style="text-decoration: none;">P S Chouke Achal &copy; 2020</a>
+                 </p>
+              </div>
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h5 class="text-uppercase text-light mb-4 fw-bold" >Home</h5>
+                  <p class="fw-semibold">
+                      <a href="#" class="text-light" style="text-decoration: none;">About</a>
+                  </p>
+                  <p class="fw-semibold">
+                      <a href="#" class="text-light" style="text-decoration: none;">Contact</a>
+                  </p>  
+              </div>
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h5 class="text-uppercase text-light mb-4 fw-bold" >About the company</h5>
+                  <p class="fw-semibold">
+                      <a href="#" class="text-light" style="text-decoration: none;">We provide almost all variety of clothings for all sizes</a>
+                  </p>
+                  
+              </div>
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <h5 class="text-uppercase text-light mb-4 fw-bold" ><span>Flower Garden Street</span>India</h5>
+                  <p class="fw-semibold">
+     
+                      <i class="fas fa-home me-3 text-light"></i><a href="#"
+                          style="text-decoration: none">Perseoni,Nagpur-440016</a>
+                  </p>
+                  <p class="fw-semibold">
+                      <i class="fas fa-envelope me-3 text-light"></i><a href="mailto:suraj@roadtocode.org"
+                          style="text-decoration: none">achalchouke4@gmail.com</a>
+                  </p>
+                  <p class="fw-semibold">
+                      <i class="fas fa-phone me-3 text-light"></i><a href="tel:+91 9145724878"
+                          style="text-decoration: none; ">+91 9145724878</a>
+                  </p>
+                  <p class="fw-semibold">
+                      <i class="fas fa-phone me-3 text-light"></i><a href="tel:+91 9145724878"
+                          style="text-decoration: none">+91 9145346103</a>
+                  </p>
+              </div>
+             
+              </div>
+          </div>
+      </div>
+     </footer>
+     
+     
+     
+
+    
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>     
+
+
+</body>
+</html>
